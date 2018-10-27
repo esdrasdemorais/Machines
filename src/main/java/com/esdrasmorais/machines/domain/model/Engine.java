@@ -18,13 +18,11 @@ public abstract class Engine implements IEngine {
 
 	@Override
 	public void setOdometer(Long serial) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void setBrand(String brand) {
-		// TODO Auto-generated method stub
 		
 	}
 }
