@@ -1,6 +1,14 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+bootJar {
+    baseName = 'gs-spring-boot'
+    version = '0.1.0'
+}
 
 mainClassName = 'test/java/MachinesTests'
 
@@ -13,9 +21,16 @@ repositories {
 // tag::jar[]
 jar {
     baseName = 'gs-gradle'
-    version =  '0.1.0'
+    version =  '0.1.7'
 }
 // end::jar[]
+
+allprojects {
+    repositories {
+	jcenter()
+	maven { url 'https://jitpack.io' }
+    }
+}
 
 // tag::dependencies[]
 sourceCompatibility = 1.8
@@ -30,9 +45,14 @@ dependencies {
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:23.0'
 
-    compile 'org.mongodb:mongodb-driver:3.8.2'    
+    //compile 'org.mongodb:mongodb-driver:3.8.2'    
     
-    testCompile "junit:junit:4.12"
+    //testCompile "junit:junit:4.12"
+    testCompile("junit:junit")
+
+    implementation 'com.github.esdrasdemorais:Ddd:master-SNAPSHOT'
+
+    compile("org.springframework.boot:spring-boot-starter-web")
 }
 // end::dependencies[]
 

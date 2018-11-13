@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry output="bin/main" kind="src" path="src/main/java">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
@@ -13,28 +12,19 @@
 			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/ad622e3cfe39319ea53b183aa5615f96ff346584/joda-time-2.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.8.2/791ff2cd90a73340d88d7d65c7d612fc2bce5f60/mongodb-driver-3.8.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.8.2/d1265023f0b490a2643aa722966c290138eed737/mongodb-driver-3.8.2.jar">
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/f0778bbb326ae3f406542edf55741103e76d2aee/Ddd-master-SNAPSHOT.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/c947004bb13d18182be60077ade044099e4f26f1/guava-23.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.8.2/eef1f5c81fda823c64be366daaa79ffb77bf48fa/mongodb-driver-core-3.8.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.8.2/24b8708db42dde5686ed49fd2c614e66144fa28a/mongodb-driver-core-3.8.2.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.8.2/968a98f1773af9bbc9a24e4f4d676ad5a3ef5d2f/bson-3.8.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.8.2/3edc6689b0f15eac0e3d3e7997ddd1bb9b8232f6/bson-3.8.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -55,6 +45,31 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/886474da3f761d39fcbb723d97ecc5089e731f42/animal-sniffer-annotations-1.14-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/8fab23986ea8886af34818daf32a718e81dc98ba/commons-math3-3.6.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.8.2/791ff2cd90a73340d88d7d65c7d612fc2bce5f60/mongodb-driver-3.8.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.8.2/d1265023f0b490a2643aa722966c290138eed737/mongodb-driver-3.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.8.2/eef1f5c81fda823c64be366daaa79ffb77bf48fa/mongodb-driver-core-3.8.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.8.2/24b8708db42dde5686ed49fd2c614e66144fa28a/mongodb-driver-core-3.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.8.2/968a98f1773af9bbc9a24e4f4d676ad5a3ef5d2f/bson-3.8.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.8.2/3edc6689b0f15eac0e3d3e7997ddd1bb9b8232f6/bson-3.8.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
