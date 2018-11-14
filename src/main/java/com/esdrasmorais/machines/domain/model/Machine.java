@@ -1,9 +1,11 @@
 package com.esdrasmorais.machines.domain.model;
 
+import java.time.Year;
 import java.util.Date;
 import java.util.List;
 
 import com.esdrasmorais.machines.domain.model.interfaces.IMachine;
+import com.esdrasmorais.machines.domain.model.interfaces.IAccessory;
 import com.esdrasmorais.machines.domain.model.interfaces.IEngine;;
 
 public abstract class Machine implements IMachine {
@@ -16,15 +18,19 @@ public abstract class Machine implements IMachine {
 	protected String purchasePlace;
 	protected Double originalMilesHours;
 	protected String notes;
-	protected List<IEngine> engine;
+	protected List<IEngine> engines;
 	protected String type;
 	protected Double weight;
 	protected Double capacity;
-	protected Date madeIn;
+	protected Year madeIn;
 	protected Boolean isAvailable;
 	protected Position localization;
 	protected Boolean hasFuel;
 	protected String brand;
+	protected Image frontPhoto; 
+	protected Image backPhoto;
+	protected Image sidePhoto;
+	protected List<IAccessory> acessories;
 	
 	@Override
 	public void setType(String type) {
