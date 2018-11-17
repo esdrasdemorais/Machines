@@ -15,7 +15,8 @@ public abstract class Engine implements IEngine {
 	protected Long secondPartNumber;
 	protected Long thirdPartNumber;
 	protected String notes;
-
+	protected Double price;
+	
 	@Override
 	public void setOdometer(Long serial) {
 		
@@ -23,6 +24,10 @@ public abstract class Engine implements IEngine {
 
 	@Override
 	public void setBrand(String brand) {
-		
+		this.brand = brand;
+	}
+	
+	public void setPrice(Double price) {
+		this.price = price;
 	}
 }

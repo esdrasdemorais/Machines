@@ -1,5 +1,9 @@
 package com.esdrasmorais.machines.domain.model.interfaces;
 
-public interface IAccessory {
+import java.time.Year;
 
+public interface IAccessory {
+	public void setDescription(String description);
+	public void setPrice(Double price);
+	public void setMadeIn(Year madeIn);
 }

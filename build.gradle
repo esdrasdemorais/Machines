@@ -2,13 +2,13 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 apply plugin: 'idea'
-apply plugin: 'org.springframework.boot'
-apply plugin: 'io.spring.dependency-management'
+//apply plugin: 'org.springframework.boot'
+//apply plugin: 'io.spring.dependency-management'
 
-bootJar {
-    baseName = 'gs-spring-boot'
-    version = '0.1.0'
-}
+//bootJar {
+//    baseName = 'gs-spring-boot'
+//    version = '0.1.0'
+//}
 
 mainClassName = 'test/java/MachinesTests'
 
@@ -47,12 +47,12 @@ dependencies {
 
     //compile 'org.mongodb:mongodb-driver:3.8.2'    
     
-    //testCompile "junit:junit:4.12"
-    testCompile("junit:junit")
+    testCompile "junit:junit:4.12"
+    //testCompile("junit:junit")
 
     implementation 'com.github.esdrasdemorais:Ddd:master-SNAPSHOT'
 
-    compile("org.springframework.boot:spring-boot-starter-web")
+    //compile("org.springframework.boot:spring-boot-starter-web")
 }
 // end::dependencies[]
 

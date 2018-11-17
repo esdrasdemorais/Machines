@@ -5,11 +5,13 @@ import java.util.Date;
 import java.util.List;
 
 import com.esdrasmorais.machines.domain.model.interfaces.IMachine;
+import com.esdrasmorais.ddd.repository.IdentifiedDomainObject;
 import com.esdrasmorais.machines.domain.model.interfaces.IAccessory;
 import com.esdrasmorais.machines.domain.model.interfaces.IEngine;;
 
-public abstract class Machine implements IMachine {
-	protected Long id;
+public abstract class Machine extends IdentifiedDomainObject 
+	implements IMachine
+{
 	protected Long serialNumber;
 	protected String product;
 	protected String version;
@@ -31,6 +33,7 @@ public abstract class Machine implements IMachine {
 	protected Image backPhoto;
 	protected Image sidePhoto;
 	protected List<IAccessory> acessories;
+	protected Double price;
 	
 	@Override
 	public void setType(String type) {
@@ -71,4 +74,6 @@ public abstract class Machine implements IMachine {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
+	
+	
 }

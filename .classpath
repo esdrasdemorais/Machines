@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry output="bin/main" kind="src" path="src/main/java">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
@@ -12,14 +13,13 @@
 			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/ad622e3cfe39319ea53b183aa5615f96ff346584/joda-time-2.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/f0778bbb326ae3f406542edf55741103e76d2aee/Ddd-master-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/254bef97bcf87935f1f4463c500f379011e6f1be/Ddd-master-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/14ac54206decab454b534f7b8ebc6ea6d106085/Ddd-master-SNAPSHOT.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
