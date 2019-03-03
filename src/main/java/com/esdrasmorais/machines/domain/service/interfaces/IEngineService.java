@@ -1,4 +1,4 @@
-package com.esdrasmorais.machines.domain.service;
+package com.esdrasmorais.machines.domain.service.interfaces;
 
 import java.util.List;
 
